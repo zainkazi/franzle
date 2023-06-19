@@ -41,7 +41,7 @@ const Header = () => {
         <Button
           colorScheme="brand"
           rightIcon={<PhoneIcon />}
-          size={{ base: "xs", md: "md" }}
+          size={{ base: "sm", md: "md" }}
         >
           Contact
         </Button>
