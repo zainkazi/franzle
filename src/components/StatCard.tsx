@@ -25,7 +25,12 @@ const StatCard = ({ title, stat, icon }: Props) => {
     >
       <Flex justifyContent={"space-between"}>
         <Box pl={{ base: 2, md: 4 }}>
-          <StatLabel fontSize="xl" fontWeight={"medium"} isTruncated>
+          <StatLabel
+            color={"gray.500"}
+            fontSize="xl"
+            fontWeight={"medium"}
+            isTruncated
+          >
             {title}
           </StatLabel>
           <StatNumber fontSize={"4xl"} fontWeight={"medium"}>

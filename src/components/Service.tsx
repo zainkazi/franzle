@@ -22,7 +22,7 @@ const Service = ({ name, description }: Props) => {
         <Heading color="#799cd1">{name}</Heading>
       </CardHeader>
       <CardBody>
-        <Text>{description}</Text>
+        <Text color={"gray.200"}>{description}</Text>
       </CardBody>
       <CardFooter>
         <HStack>

@@ -16,7 +16,7 @@ const Stats = () => {
     >
       <Heading
         textAlign={"center"}
-        fontSize={"5xl"}
+        fontSize={{ base: "2xl", sm: "4xl" }}
         py={10}
         fontWeight={"bold"}
       >

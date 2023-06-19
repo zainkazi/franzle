@@ -18,22 +18,23 @@ const HeroDetails = () => {
         as={Box}
         textAlign={"center"}
         spacing={{ base: 8, md: 14 }}
-        py={{ base: 20, md: 24 }}
+        py={{ base: 20, md: 36 }}
       >
         <Heading
           fontWeight={600}
           fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
           lineHeight={"110%"}
         >
-          Make money from <br />
+          Propel your business
+          <br />
           <Text as={"span"} color="#799cd1">
-            your audience
+            to success
           </Text>
         </Heading>
         <Text color={"gray.500"}>
-          Monetize your content by charging your most loyal readers and reward
-          them loyalty points. Give back to your loyal readers by granting them
-          access to your pre-releases and sneak-peaks.
+          Supercharge your online presence and achieve unparalleled success with
+          Franzle. We specialize in delivering results-driven digital marketing
+          strategies that propel your business forward.
         </Text>
         <Stack
           direction={"column"}

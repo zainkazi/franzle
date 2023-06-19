@@ -3,10 +3,14 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 const Intro = () => {
   return (
     <Box textAlign="center" padding="50px">
-      <Heading color="#799cd1" fontSize="5xl" marginBottom="30px">
+      <Heading
+        color="#799cd1"
+        fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
+        marginBottom="30px"
+      >
         What we do
       </Heading>
-      <Text fontSize="xl">
+      <Text fontSize={{ base: "sm", md: "xl" }} color={"gray.500"}>
         Welcome to Franzle, your comprehensive solution for digital marketing
         success. With expertise in social media marketing, web design and
         development, and Instagram content creation, we are dedicated to
