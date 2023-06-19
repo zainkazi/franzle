@@ -258,13 +258,13 @@ const Contact = () => {
               </Box>
             </Stack>
             {isVisible && (
-              <Alert width="50%" status="success">
+              <Alert width={{ base: "70%", md: "70%" }} status="success">
                 <AlertIcon />
                 <Box>
                   <AlertTitle>Success!</AlertTitle>
                   <AlertDescription>
-                    Your application has been received. We will review your
-                    application and respond within the next 48 hours.
+                    Your message has been received. We will respond within 24
+                    hours.
                   </AlertDescription>
                 </Box>
                 <CloseButton
