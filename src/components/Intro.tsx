@@ -5,7 +5,7 @@ const Intro = () => {
     <Box textAlign="center" padding="50px">
       <Heading
         color="#799cd1"
-        fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
+        fontSize={{ base: "3xl", sm: "4xl", md: "6xl" }}
         marginBottom="30px"
       >
         What we do
