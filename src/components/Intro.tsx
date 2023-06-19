@@ -10,7 +10,7 @@ const Intro = () => {
       >
         What we do
       </Heading>
-      <Text fontSize={{ base: "sm", md: "xl" }} color={"gray.500"}>
+      <Text fontSize={{ base: "sm", md: "xl" }} color={"gray.400"}>
         Welcome to Franzle, your comprehensive solution for digital marketing
         success. With expertise in social media marketing, web design and
         development, and Instagram content creation, we are dedicated to
