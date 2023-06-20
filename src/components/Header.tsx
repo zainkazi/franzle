@@ -38,13 +38,15 @@ const Header = () => {
         />
         <Image src={logo} width={{ base: "100px", md: "120px" }} />
         <Navbar />
-        <Button
-          colorScheme="brand"
-          rightIcon={<PhoneIcon />}
-          size={{ base: "sm", md: "md" }}
-        >
-          Contact
-        </Button>
+        <Link href="#contact-form">
+          <Button
+            colorScheme="brand"
+            rightIcon={<PhoneIcon />}
+            size={{ base: "sm", md: "md" }}
+          >
+            Contact
+          </Button>
+        </Link>
 
         <Drawer placement="right" onClose={onClose} isOpen={isOpen}>
           <DrawerOverlay />

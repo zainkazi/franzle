@@ -101,6 +101,7 @@ const Contact = () => {
                 base: "4xl",
                 md: "5xl",
               }}
+              id="contact-form"
             >
               Get in Touch
             </Heading>
@@ -134,7 +135,10 @@ const Contact = () => {
                   />
                 </Tooltip>
 
-                <Link href="#">
+                <Link
+                  href="https://www.instagram.com/franzle.agency"
+                  target="_blank"
+                >
                   <IconButton
                     aria-label="instagram"
                     variant="ghost"

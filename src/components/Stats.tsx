@@ -8,7 +8,8 @@ import { GoLocation } from "react-icons/go";
 const Stats = () => {
   return (
     <Box
-      marginBottom="100px"
+      marginTop="100px"
+      marginBottom="150px"
       maxW="7xl"
       mx={"auto"}
       pt={5}

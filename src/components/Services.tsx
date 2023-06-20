@@ -1,7 +1,7 @@
 import { SimpleGrid } from "@chakra-ui/react";
 import Service from "./Service";
 
-const Servicse = () => {
+const Services = () => {
   const services = [
     {
       id: 1,
@@ -24,7 +24,12 @@ const Servicse = () => {
   ];
 
   return (
-    <SimpleGrid columns={{ sm: 1, md: 3 }} spacing={6} padding={6}>
+    <SimpleGrid
+      marginTop="100px"
+      columns={{ sm: 1, md: 3 }}
+      spacing={6}
+      padding={6}
+    >
       {services.map((service) => (
         <Service
           key={service.id}
@@ -37,4 +42,4 @@ const Servicse = () => {
   );
 };
 
-export default Servicse;
+export default Services;
